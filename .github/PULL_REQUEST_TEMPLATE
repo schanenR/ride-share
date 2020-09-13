@@ -6,8 +6,14 @@ Congratulations! You're submitting your assignment. Please reflect on the assign
 
 |  Question 	|  Answer 	|
 |---	|---	|
-|  What did your data structure look like at first? Did this structure evolve over time? Why?	|   	|
-|  What was your strategy for going through the data structure and gathering information?	|   	|
-|  What was an example of something that was necessary to store in a variable? Why was it necessary, useful, or helpful? 	|   	|
-|  What kinds of iteration did you use? Did you use `.map`? If so, when? If not, why, or when would be a good opportunity to use it? 	|   	|
-|  Were some calculations easier than others? Why? 	|   	|
+|  What did your data structure look like at first? Did this structure evolve over time? Why?	
+|       At first I made an array of hashes where the key for the four hashes was the driver ID. I realized that needed to reference unique keys in my method was problematic. I adjusted to an array of hashes, only using keys which repeated in each index.  	|
+|  What was your strategy for going through the data structure and gathering information?	
+|       I thought about what questions I would need to answer with the data set in order to understand how to structure it. I also thought logically about the user could best understand the structure. i.e. the data grouped by driver. 	|
+|  What was an example of something that was necessary to store in a variable? Why was it necessary, useful, or helpful? 	
+|       I decided to account for ties for highest rating and for highest earning drivers. I stored drivers with there records in a string. Then, later when I wrote print string I could reference call this string which was already formatted with a singular or the appropriate 'and' driver two etc.  This was helpful so I didn't need to loop for this string within my final print method.  	|
+|  What kinds of iteration did you use? Did you use `.map`? If so, when? If not, why, or when would be a good opportunity to use it? 	
+|       I use .map in three methods, my # of rides per driver, my earn totals and rating average.   	|
+|  Were some calculations easier than others? Why? 	
+|       I did not find it hard but I do find building calculations always takes time getting oriented with a data structure. I started working on the optional for fun and the calculation identifying date strings, using indexes to find resulting earnings, totaling into appropriate dates, then locating the greatest earning day or each driver and printing the information is a challenge.
+|
